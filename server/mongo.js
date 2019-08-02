@@ -12,7 +12,7 @@ if (!config.db.user || !config.db.pass) {
 /* Database */
 // Connect to the database.
 // mongoose.set('useCreateIndex', true);
-// mongoose.connect(db.getDSN(), db.getOptions());
+mongoose.connect(db.getDSN(), db.getOptions());
 
 /* Add User */
 // Create the database user.

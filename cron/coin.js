@@ -24,7 +24,9 @@ async function syncCoin() {
     {$match: {address: {$ne: 'ZERO_COIN_MINT'}}},
     {$match: {address: {$not: /OP_RETURN/}}},
     {$group: {_id: 'supply', total: {$sum: '$value'}}}
-  ])
+  ]);
+  if (!utxo.length)
+    utxo[0] = { total: 0 };
   let market = await fetch(url);
   if (Array.isArray(market)) {
     market = market.length ? market[0] : {};
@@ -48,7 +50,7 @@ async function syncCoin() {
     netHash: nethashps,
     peers: info.connections,
     status: 'Online',
-    supply: utxo[0].total + info.zOBSRsupply.total,
+    supply: utxo[0].total + info.zPRDsupply.total,
     usd: market.price_usd
   });
 
