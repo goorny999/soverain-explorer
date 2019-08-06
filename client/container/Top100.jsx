@@ -58,7 +58,7 @@ class Top100 extends Component {
 }
 
 const mapDispatch = dispatch => ({
-  getTop100: () => Actions.getTop100()
+  getTop100: () => Actions.getTop100(),
 });
 
 const mapState = state => ({

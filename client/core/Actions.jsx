@@ -96,6 +96,12 @@ export const getPeers = () => {
   });
 };
 
+export const getTop100 = () => {
+  return new promise((resolve, reject) => {
+    return getFromWorker('top-100', resolve, reject);
+  });
+};
+
 export const getTX = (query) => {
   return new promise((resolve, reject) => {
     return getFromWorker('tx', resolve, reject, query);
@@ -170,6 +176,7 @@ export default {
   getIsBlock,
   getMNs,
   getPeers,
+  getTop100,
   getTX,
   getTXLatest,
   getTXs,
