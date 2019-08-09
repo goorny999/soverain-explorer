@@ -6,7 +6,7 @@ const MenuData = [
   {label: 'Connections', href: '/peer'},
   {label: 'Statistics', icon: '/img/statistics.svg', href: '/statistics'},
   {label: 'API', href: '/api'},
-  {label: 'OBSR Info', href: '/coin'}
+  {label: 'SOVE Info', href: '/coin'}
 ]
 
 export default MenuData;

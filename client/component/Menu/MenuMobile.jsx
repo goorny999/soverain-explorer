@@ -68,26 +68,26 @@ export default class MenuMobile extends Component {
             </ul>
             <div className="menu-mobile__footer">
               <div>
-                <img src="/img/obsrlogo.png" className="menu-mobile__logo" />
+                <img src="/img/sovelogo.png" className="menu-mobile__logo" />
               </div>
               <div className="menu-mobile__footer--social">
-                <a href="https://github.com/observernet" target="_blank">
+                <a href="https://github.com/soveraintg" target="_blank">
                   <Icon name="github" className="fab footer__social-media-icon" />
                 </a>
-                <a href="https://t.me/obsrofficial" target="_blank">
+                <a href="https://t.me/soveraintg" target="_blank">
                   <Icon name="telegram" className="fab footer__social-media-icon" />
                 </a>
-                <a href="https://www.facebook.com/Observer-Foundation-172553103444990/" target="_blank">
+                <a href="https://www.facebook.com/SoverainFacebookClub/" target="_blank">
                   <Icon name="facebook" className="fab footer__social-media-icon" />
                 </a>
-                <a href="https://twitter.com/observerfounda1" target="_blank">
+                <a href="https://twitter.com/soveraintg" target="_blank">
                   <Icon name="twitter" className="fab footer__social-media-icon" />
                 </a>
               </div>
               <div>
-                <a className="obsr-link--mobile" href="https://obsr.org">obsr.org</a>
+                <a className="sove-link--mobile" href="https://soverain.org">soverain.org</a>
               </div>
-              <div className="menu-mobile__footer--copyright">&copy; Copyright 2018-2019 Observer Foundation. All Rights Reserved</div>
+              <div className="menu-mobile__footer--copyright">&copy; Copyright 2019 Soverain Technology Group. All Rights Reserved</div>
             </div>
           </div>
           {/* <div className="menu-mobile__search-wrapper">

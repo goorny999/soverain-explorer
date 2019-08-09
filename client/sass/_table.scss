@@ -97,7 +97,7 @@
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    content: "\f1b2";
+    content: "\f51e";
     color: $theme-dark-blue;
     padding-right: 4px;
   }
@@ -109,15 +109,15 @@
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    content: "\f362";
+    content: "\f074";
     color: $theme-dark-blue;
     padding-right: 4px;
     display: inline-block;
-    -webkit-transform: rotate(130deg);
-    -moz-transform: rotate(130deg);
-    -o-transform: rotate(130deg);
-    -ms-transform: rotate(130deg);
-    transform: rotate(130deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 
   .span-txId::before {

@@ -6,7 +6,7 @@ const APIdata = [
         {
           name: 'getAddress [hash]',
           info: 'Returns information for given address.',
-          path: '/api/address/oUmz3ncnXGdEafaVbG16J9ak4vNjBAfuSJ'
+          path: '/api/address/SR138gttiPwDzUnNtG29qGxnjTkoGhhV12'
         },
         {
           name: 'getBlock [hash] [height]',
@@ -36,7 +36,7 @@ const APIdata = [
         {
           name: 'getMasternodeByAddress',
           info: 'Returns masternode information by Wallet Address.',
-          path: '/api/masternode/OU3nYpsPofS1wPwg6w2pTaKaRuvvkbxCxR'
+          path: '/api/masternode/SPkxeo85oB3fhpoq6Yw7U2jbeJfohrwA59'
         },
         {
           name: 'getMasternodeCount',
@@ -142,7 +142,7 @@ const APIdata = [
         {
           name: 'Address (/#/address/[hash]',
           info: 'Returns address information.',
-          path: '/#/address/oUmz3ncnXGdEafaVbG16J9ak4vNjBAfuSJ'
+          path: '/#/address/SR138gttiPwDzUnNtG29qGxnjTkoGhhV12'
         },
         // { name: 'qr (qr/[hash]',
         //   info: 'Returns qr code information.',

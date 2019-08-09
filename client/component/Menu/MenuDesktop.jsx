@@ -60,25 +60,25 @@ export default class MenuDesktop extends Component {
         <div className={ `menu-desktop ${ this.state.isOpen ? 'menu-desktop--open' : 'menu-desktop--close' }` }>
           <div className="menu-desktop__content-wrapper">
             <div className="menu-desktop__header">
-              <img src="/img/obsrlogo.png" className="menu-desktop__logo" />
+              <img src="/img/sovelogo.png" className="menu-desktop__logo" />
             </div>
             <div className="menu-desktop__nav container">
               { this.getLinks() }
             </div>
             <div className="menu-desktop__social">
-              <a href="https://t.me/obsrofficial" target="_blank">
+              <a href="https://t.me/soveraintg" target="_blank">
                 <Icon name="telegram" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://github.com/observernet" target="_blank">
+              <a href="https://github.com/soveraintg" target="_blank">
                 <Icon name="github" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://twitter.com/observerfounda1" target="_blank">
+              <a href="https://twitter.com/soveraintg" target="_blank">
                 <Icon name="twitter" className="fab footer__social-media-icon" />
               </a>
-              <a href="https://www.facebook.com/Observer-Foundation-172553103444990/" target="_blank">
+              <a href="https://www.facebook.com/SoverainFacebookClub/" target="_blank">
                 <Icon name="facebook" className="fab footer__social-media-icon" />
               </a>
-              <a className="obsr-link" href="https://obsr.org">obsr.org</a>
+              <a className="sove-link" href="https://soverain.org">soverain.org</a>
             </div>
           </div>
         </div>

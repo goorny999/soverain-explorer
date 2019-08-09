@@ -16,9 +16,9 @@ const config = {
   'db': {
     'host': '127.0.0.1',
     'port': '27017',
-    'name': 'obsr',
-    'user': 'obsr',
-    'pass': 'obsr'
+    'name': 'sove',
+    'user': 'sove',
+    'pass': 'sove'
   },
   'freegeoip': {
     'api': 'https://extreme-ip-lookup.com/json/'

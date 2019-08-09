@@ -48,7 +48,7 @@ export default class CardStatus extends Component {
 
     return (
       <div className="animated fadeInUp">
-        <Card className="card--graph" title="OBSR Market" subTitle={displayGrowth}>
+        <Card className="card--graph" title="SOVE Market" subTitle={displayGrowth}>
           <div className="card__row">
             <span className="card__label">
               USD market

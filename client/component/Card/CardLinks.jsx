@@ -5,11 +5,11 @@ import Card from './Card';
 
 const CardLinks = () => (
   <Card title="Links">
-    <a href="https://obsr.org/" target="_blank">Website</a><br />
-    <a href="https://github.com/observernet" target="_blank">Github</a><br />
-    <a href="https://t.me/obsrofficial" target="_blank">Telegram</a><br />
-    <a href="https://twitter.com/observerfounda1" target="_blank">Twitter</a><br />
-    <a href="https://www.facebook.com/Observer-Foundation-172553103444990/" target="_blank">Facebook</a>
+    <a href="https://soverain.org/" target="_blank">Website</a><br />
+    <a href="https://github.com/soveraintg" target="_blank">Github</a><br />
+    <a href="https://t.me/soveraintg" target="_blank">Telegram</a><br />
+    <a href="https://twitter.com/soveraintg" target="_blank">Twitter</a><br />
+    <a href="https://www.facebook.com/SoverainFacebookClub/" target="_blank">Facebook</a>
   </Card>
 );
 

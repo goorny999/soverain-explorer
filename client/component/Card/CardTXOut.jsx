@@ -40,14 +40,14 @@ export default class CardTXOut extends Component {
               voutValue = <div>
                 <span className="badge badge-success">STAKE REWARD</span>
                 <span className="badge badge-success">
-                  {numeral(vout.value).format('0,0.0000')} OBSR
+                  {numeral(vout.value).format('0,0.0000')} SOVE
                    </span>
               </div>
             } else {
               voutValue = <div>
                 <span className="badge badge-success">MN REWARD</span>
                 <span className="badge badge-success">
-                  {numeral(vout.value).format('0,0.0000')} OBSR
+                  {numeral(vout.value).format('0,0.0000')} SOVE
                    </span>
               </div>
             }
@@ -65,14 +65,14 @@ export default class CardTXOut extends Component {
               voutValue = <div>
                 <span className="badge badge-success">STAKE REWARD</span>
                 <span className="badge badge-success">
-                  {numeral(vout.value).format('0,0.0000')} OBSR
+                  {numeral(vout.value).format('0,0.0000')} SOVE
                    </span>
               </div>
             } else {
               voutValue = <div>
                 <span className="badge badge-success">MN REWARD</span>
                 <span className="badge badge-success">
-                  {numeral(vout.value).format('0,0.0000')} OBSR
+                  {numeral(vout.value).format('0,0.0000')} SOVE
                    </span>
               </div>
             }
@@ -94,7 +94,7 @@ export default class CardTXOut extends Component {
                 value: (
 
                   <span className="badge badge-success">
-              {numeral(vout.value).format('0,0.0000')} OBSR
+              {numeral(vout.value).format('0,0.0000')} SOVE
             </span>
                 )
               })

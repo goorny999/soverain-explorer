@@ -10,7 +10,7 @@ const getPageName = (local) => {
       return term.toUpperCase();
     }
     if (local == '/coin') {
-      return 'OBSR Info'
+      return 'SOVE Info'
     }
     const formatLocal = local.replace('/', '');
     return formatLocal;

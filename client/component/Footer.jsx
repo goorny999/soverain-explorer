@@ -19,7 +19,7 @@ class Footer extends Component {
     return (
       <div className="footer container">
         <div className="footer__block">
-          <img className="footer__logo" src="/img/obsrlogo.png" />
+          <img className="footer__logo" src="/img/sovelogo.png" />
         </div>
         <div className="footer__block">
           <div className="footer__data-wrapper">
@@ -43,22 +43,22 @@ class Footer extends Component {
               <a href="/#/api">API</a>
             </div>
             <div className="footer__data-block">
-              <a href="/#/coin">OBSR Info</a>
+              <a href="/#/coin">SOVE Info</a>
             </div>
           </div>
         </div>
         <div className="footer__block">
           <div className="menu-desktop__social ml-auto">
-            <a href="https://github.com/observernet" target="_blank">
+            <a href="https://github.com/soveraintg" target="_blank">
               <Icon name="github" className="fab footer__social-media-icon" />
             </a>
-            <a href="https://t.me/obsrofficial" target="_blank">
+            <a href="https://t.me/soveraintg" target="_blank">
               <Icon name="telegram" className="fab footer__social-media-icon" />
             </a>
             <a href="https://open.kakao.com/o/gPsdW8T" target="_blank">
               <Icon name="kakao" className="fab footer__social-media-icon" />
             </a>
-            <a href="https://twitter.com/observerfounda1" target="_blank">
+            <a href="https://twitter.com/soveraintg" target="_blank">
               <Icon name="twitter" className="fab footer__social-media-icon" />
             </a>
           </div>

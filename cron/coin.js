@@ -50,7 +50,7 @@ async function syncCoin() {
     netHash: nethashps,
     peers: info.connections,
     status: 'Online',
-    supply: utxo[0].total + info.zPRDsupply.total,
+    supply: utxo[0].total + info.zSOVEsupply.total,
     usd: market.price_usd
   });
 

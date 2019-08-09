@@ -151,7 +151,7 @@ class Statistics extends Component {
           </div>
           <div className="row">
             <div className="col-md-12 col-lg-6">
-              <h3>OBSR Price USD</h3>
+              <h3>SOVE Price USD</h3>
               <h4>{ numeral(this.props.coin.usd).format('$0,0.000') } { day }</h4>
               <h5>{ this.props.coin.btc } BTC</h5>
               <div>

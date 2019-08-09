@@ -13,7 +13,7 @@ const CardROI = ({ coin }) => {
   const roi = blockchain.getROI(subsidy, coin.mnsOn);
 
   return (
-    <Card title="Observer Information and Metrics">
+    <Card title="Soverain Coin Information and Metrics">
       <div className="row">
         <div className="col-sm-12 col-md-6">
           Active/Total Masternodes
@@ -49,7 +49,7 @@ const CardROI = ({ coin }) => {
           Coins Locked 
         </div>
         <div className="col-sm-12 col-md-6">
-          { numeral(mns * mncoins).format('0,0.0000') } OBSR
+          { numeral(mns * mncoins).format('0,0.0000') } SOVE
         </div>
         <div className="col-sm-12 col-md-6">
           Masternode Worth

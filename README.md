@@ -1,8 +1,5 @@
-![Bulwark Logo](https://bulwarkcrypto.com/wp-content/uploads/2018/04/blockexplorer.svg)
-
-Bulwark Block Explorer 
+Soverain Block Explorer 
 =====
-[![GitHub license](https://img.shields.io/github/license/bulwark-crypto/bulwark-explorer.svg)](https://github.com/bulwark-crypto/bulwark-explorer/blob/master/LICENSE) [![GitHub issues](https://img.shields.io/github/issues/bulwark-crypto/bulwark-explorer.svg)](https://github.com/bulwark-crypto/bulwark-explorer/issues) [![Discord](https://img.shields.io/discord/374271866308919296.svg)](https://discord.me/bulwarkcrypto) <a href="https://twitter.com/intent/follow?screen_name=bulwarkcoin"> <img src="https://img.shields.io/twitter/follow/bulwarkcoin.svg?style=social&logo=twitter" alt="follow on Twitter"></a>
 
 Simple cryptocurrency block explorer system.
 
@@ -26,9 +23,9 @@ Our geniuses here at BulwarkCorp™ have put together a script to do this for yo
 This will install the latest Bulwark wallet and create a rpc username/password before starting the daemon.
 
 ## Install
-`git clone https://github.com/bulwark-crypto/bulwark-explorer.git` - copy repo to local folder.
+`git clone https://github.com/soveraintg/soverain-explorer.git` - copy repo to local folder.
 
-`cd blockex` - change into project directory.
+`cd soverain-explorer` - change into project directory.
 
 `yarn install` - install packages used by the system.
 
@@ -62,11 +59,11 @@ __Note:__ is is recommended to run all the crons before editing the crontab to h
 
 To setup the crontab please see run `crontab -e` to edit the crontab and paste the following lines (edit with your local information):
 ```
-*/1 * * * * cd /path/to/blockex && ./script/cron_block.sh >> ./tmp/block.log 2>&1
-*/1 * * * * cd /path/to/blockex && /path/to/node ./cron/masternode.js >> ./tmp/masternode.log 2>&1
-*/1 * * * * cd /path/to/blockex && /path/to/node ./cron/peer.js >> ./tmp/peer.log 2>&1
-*/1 * * * * cd /path/to/blockex && /path/to/node ./cron/rich.js >> ./tmp/rich.log 2>&1
-*/5 * * * * cd /path/to/blockex && /path/to/node ./cron/coin.js >> ./tmp/coin.log 2>&1
+*/1 * * * * cd /path/to/soverain-explorer && ./script/cron_block.sh >> ./tmp/block.log 2>&1
+*/1 * * * * cd /path/to/soverain-explorer && /path/to/node ./cron/masternode.js >> ./tmp/masternode.log 2>&1
+*/1 * * * * cd /path/to/soverain-explorer && /path/to/node ./cron/peer.js >> ./tmp/peer.log 2>&1
+*/1 * * * * cd /path/to/soverain-explorer && /path/to/node ./cron/rich.js >> ./tmp/rich.log 2>&1
+*/5 * * * * cd /path/to/soverain-explorer && /path/to/node ./cron/coin.js >> ./tmp/coin.log 2>&1
 ```
 
 ## Build

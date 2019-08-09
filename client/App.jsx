@@ -187,7 +187,7 @@ class App extends Component {
             {/* <Footer /> */}
             <FooterMenu links={MenuData} onSearch={ this.handleSearch } />
             <div className="container" style={{ fontSize: '14px', color: 'gray', paddingBottom: '40px', textAlign: 'left' }}>
-              <p>ⓒ 2019 Observer Foundation- All Rights Reserved <a href="https://obsr.org">obsr.org</a></p>
+              <p>ⓒ 2019 Soverain Technology Group - All Rights Reserved <a href="https://soverain.org">soverain.org</a></p>
             </div>
           </div>
         </div>

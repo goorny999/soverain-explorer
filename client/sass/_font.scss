@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
 @font-face {
     font-family: 'bariol';
@@ -75,11 +76,11 @@
     font-style: normal;
 }
 
-$fontLarge: 'bariol';
-$fontSmall: 'Source Sans Pro', sans-serif;
+$fontLarge: 'Fira Sans', sans-serif;
+$fontSmall: 'Fira Sans', sans-serif;
 
 html, body {
-	color: $black;
+	color: #010e35;
 	font-size: 16px;
 
 	/* Fix #25 - Windows rendering of fonts. */
@@ -90,7 +91,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: $black;
+	color: #010e35;
 	display: inline-block;
 	font-family: $fontLarge;
 	font-weight: normal !important;
