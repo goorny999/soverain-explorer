@@ -67,7 +67,7 @@
 	}
 
 	&__result {
-		overflow: hidden;
+//		overflow: hidden;
     text-overflow: ellipsis;
     width: 50%;
     text-align: right;
@@ -104,7 +104,7 @@
 
 	&--address {
 		&-hash {
-			font-size: 24px;
+			font-size: 16px;
 			font-weight: 400;
 		}
 
